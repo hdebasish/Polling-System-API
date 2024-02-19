@@ -17,6 +17,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
+app.get("/", (req, res, next)=>{
+  res.status(200).send("Welcome to the Polling System API");
+});
+
 // routes to question
 app.use("/api/questions", questionsRouter);
 
