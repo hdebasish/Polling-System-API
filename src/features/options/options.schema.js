@@ -6,7 +6,7 @@ const optionSchema = new mongoose.Schema({
     votes: { type: Number, default: 0 },
     link_to_vote: { type: String },
 }).pre('save', function (next) {
-    this.link_to_vote = `http://localhost:3001/api/options/${this._id}/add_vote`;
+    this.link_to_vote = `https://polling-system-api-z3h8.onrender.com/api/options/${this._id}/add_vote`;
     next();
 });
 
