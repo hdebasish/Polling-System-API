@@ -143,15 +143,15 @@ Response:
 Option deleted successfully
 ```
 
-###Installation
+### Installation
 
 To install and run the API locally, follow these steps:
 
-- Clone this repository: git clone https://github.com/hdebasish/Polling-System-API
-- Navigate to the project directory: cd Polling-System-API
-- Install dependencies: npm install
+- Clone this repository: `git clone https://github.com/hdebasish/Polling-System-API`
+- Navigate to the project directory: `cd Polling-System-API`
+- Install dependencies: `npm install`
 - Configure environment variables (if required).
-- Start the server: npm start
+- Start the server: `npm start`
 
 ## Feedback
 
