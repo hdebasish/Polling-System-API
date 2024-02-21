@@ -143,7 +143,7 @@ Response:
 Option deleted successfully
 ```
 
-### Installation
+## Installation
 
 To install and run the API locally, follow these steps:
 
