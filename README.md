@@ -24,7 +24,7 @@ A polling API for adding questions and options would provide endpoints and funct
 You can access the Polling System API at the following base URL:
 
 ```url
-  https://polling-system-api-z3h8.onrender.com/](https://polling-system-api-production-3b0e.up.railway.app/
+  https://polling-system-api-production-3b0e.up.railway.app/
 ```
 
 ### Creating Questions
